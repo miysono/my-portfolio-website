@@ -1,6 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/App.js"],
+  content: [
+    "./src/App.js",
+    "./src/components/AboutMeSection.js",
+    "./src/components/Header.js",
+    "./src/components/Home.js",
+    "./src/components/Intro.js",
+    "./src/components/IntroSvg.js",
+    "./src/components/Moons.js",
+    "./src/components/PortfolioContainer.js",
+    "./src/components/PortfolioSection.js",
+    "./src/components/Project.js",
+    "./src/components/SectionDivider.js",
+  ],
   theme: {
     extend: {
       animation: {

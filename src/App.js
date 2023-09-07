@@ -6,7 +6,7 @@ import { Project } from "./components/Project";
 import { SectionDivider } from "./components/SectionDivider";
 import { IntroSvg } from "./components/IntroSvg";
 import { PortfolioContainer } from "./components/PortfolioContainer";
-import { PortfoloSection } from "./components/PortfoloSection";
+import { PortfolioSection } from "./components/PortfolioSection";
 import { AboutMeSection } from "./components/AboutMeSection";
 import { Intro } from "./components/Intro";
 import { Home } from "./components/Home";
@@ -67,7 +67,7 @@ export default function App() {
                 <Moons />
               </Parallax>
 
-              <PortfoloSection portfolioRef={portfolioRef}>
+              <PortfolioSection portfolioRef={portfolioRef}>
                 <Project
                   src="./images/portfolio-website.png"
                   title="Portfolio Website"
@@ -106,7 +106,7 @@ export default function App() {
                   description="Calculator created with JavaScript similar to Windows' built-in one."
                   link="https://miysono.github.io/html-css-js-calculator/"
                 />
-              </PortfoloSection>
+              </PortfolioSection>
 
               <Parallax translateX={[-50, 0]}>
                 <SectionDivider colorReverse={true} />
